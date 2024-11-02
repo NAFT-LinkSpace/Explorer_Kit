@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SkyWay RP2AP</title>
+</head>
+
+<body>
+    <p>ID: <span id="my-id"></span></p>
+    <div>
+        <button id="show">カメラ映像表示</button>
+        <button id="send">アプリにデータ再送信</button>
+    </div>
+    <div style="display: flex;">
+        <video id="local-video" width="400px" muted playsinline></video>
+        <div id="remote-media-area"></div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@skyway-sdk/room/dist/skyway_room-latest.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+
+    <script type="text/javascript">
+        var video_settings = {{ jdata | tojson }}; // 動画の解像度等の設定を読み取る
+        var video_isAvailable = video_settings.isAvailable // 動画を送るかどうかを保存
+        delete video_settings.isAvailable
+        console.log(video_settings);
+        console.log(video_isAvailable);
+    </script>
+
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+    <script src="{{ url_for('flask') }}"></script>
+
+</body>
+
+</html>

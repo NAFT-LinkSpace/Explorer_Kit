@@ -1,0 +1,8 @@
+adafruit-circuitpython-bno055
+smbus2
+git+https://github.com/inmcm/micropyGPS.git
+flask
+selenium
+adafruit-circuitpython-neopixel
+adafruit-circuitpython-display-text
+adafruit-circuitpython-ssd1331

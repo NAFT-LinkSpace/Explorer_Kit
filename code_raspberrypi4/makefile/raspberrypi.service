@@ -1,0 +1,13 @@
+[Unit]
+Description=StartTest
+
+[Service]
+WorkingDirectory=/home/naft/
+User=naft
+ExecStart=/usr/bin/python /home/naft/Desktop/Explorer_Kit/code_raspberrypi4/main.py
+Environment=PYTHONPATH=$PYTHONPATH:/home/naft
+Environment=DISPLAY=:0
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
