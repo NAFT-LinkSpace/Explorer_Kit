@@ -1,6 +1,8 @@
 # Explorer Kit Wiki
 <img src="https://github.com/NAFT-LinkSpace/Explorer_Kit/wiki/images/0/1.png" width="60%">
+
 ここではExplorer kitに関する作り方及び使い方に関する説明を公開しています．
+
 ## 目次
 ### 1. 概要
   1. [CanSatとは](../../Explorer_Kit/wiki/1_Overview#1.1-CanSatとは)
