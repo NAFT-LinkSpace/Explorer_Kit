@@ -5,7 +5,7 @@
 
 ## 目次
 ### 1. 概要
-  1. [CanSatとは](../..//wiki/1_Overview#1.1-CanSatとは)
+  1. [CanSatとは](../../wiki/1_Overview#1.1-CanSatとは)
   2. [Schrittの特徴](../../wiki/1_Overview#1.2-Schrittの特徴)
   3. [大会実績](../../wiki/1_Overview#1.3-大会実績)
   4. [オプション](../../wiki/1_Overview#1.4-オプション)
