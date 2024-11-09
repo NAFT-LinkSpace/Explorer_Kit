@@ -3,13 +3,14 @@
 
 ここではExplorer kitに関する作り方及び使い方に関する説明を公開しています．
 
+※Explorer Kitとは，「第20回種子島ロケットコンテスト」CanSat部門遠隔制御カムバックに出場し優勝を果たした機体のキットである．
+
 ## 目次
 ### 1. 概要
-  1. [CanSatとは](../../wiki/1_Overview#1.1-CanSatとは)
-  2. [Schrittの特徴](../../wiki/1_Overview#1.2-Schrittの特徴)
-  3. [大会実績](../../wiki/1_Overview#1.3-大会実績)
-  4. [オプション](../../wiki/1_Overview#1.4-オプション)
-  5. [利用にあたって](../../wiki/1_Overview#1.5-利用にあたって)
+  1. [CanSatとは](../../wiki/1_Overview#11-CanSatとは)
+  2. [Schrittの特徴](../../wiki/1_Overview#12-Schrittの特徴)
+  3. [大会実績](../../wiki/1_Overview#13-大会実績)
+  4. [利用にあたって](../../wiki/1_Overview#14-利用にあたって)
 ### 2. 作り方
   1. [基板の入手方法](../../wiki/2_1_GettingBoard)
   2. [3Dプリンタ素材の入手方法](../../wiki/2_2_Getting3DParts)
@@ -24,4 +25,5 @@
   2. [コード説明](../../wiki/3_2_CodeExplanation)
   3. [アプリ説明](../../wiki/3_3_AppExplanation)
 ### 4. 付録
-  + [おすすめの3Dプリンタ](../../wiki/4_1_Recom3DPrinters)
+  1. [おすすめの3Dプリンタ](../../wiki/4_1_Recom3DPrinters)
+  2. [オプション](../../wiki/4_2_Option)
